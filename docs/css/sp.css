@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+.sp {
+  display: block;
+}
+
+.pc {
+  display: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+#header {
+  padding: 15px;
+}
+
+#content {
+  padding: 0 15px;
+}
+
+.map iframe {
+  height: 300px;
+}
+
+.map {
+  height: 300px;
+}
+
+section {
+  margin: 50px 0;
+}
+
+section h2 {
+  font-size: 23px;
+}
+
+section h2 span {
+  margin: 0 0 20px;
+}
+
+section p.explain {
+  padding: 0;
+  font-size: 14px;
+}
+
+section h2:after {
+  margin: 25px auto 30px;
+}
+
+section table,
+section table tr,
+section table tbody,
+section table th,
+section table td {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+section table th {
+  border-bottom: 0px none;
+  background: #f1f1f1;
+  padding: 20px 15px;
+  font-size: 16px;
+  text-align: left;
+}
+
+section table td {
+  border-bottom: 0px none;
+  padding: 5px 15px;
+}
+
+section table.detail td {
+  padding: 15px;
+  line-height: 1.6em;
+  font-size: 14px;
+}
+
+section table tr:last-child td {
+  border-bottom: 1px solid #7e7e7e;
+}
+
+section table td ul li {
+  font-size: 14px;
+}
+
+#footer p.copy {
+  font-size: 10px;
+  padding: 20px 0;
+}

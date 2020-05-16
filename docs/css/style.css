@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+::selection {
+	background-color: #333;
+	color: #fff;
+}
+
+a {
+	transition: all .3s;
+}
+
+a:hover {
+	opacity: 0.7;
+}
+
+input,
+button,
+textarea {
+	outline: none;
+}
+
+input:focus,
+textarea:focus {
+  background: #f7f7f7;
+}
+
+.tb,
+.sp {
+	display: none;
+}
+
+#header {
+  padding: 15px 0;
+}
+
+.inner {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.map {
+  background: #f1f1f1;
+  height: 480px;
+}
+
+.map iframe {
+  width: 100%;
+}
+
+section {
+  max-width: 840px;
+  margin: 90px auto;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 34px;
+}
+
+section h2 span {
+  display: block;
+  font-size: 18px;
+  margin: 0 0 30px;
+}
+
+section h2:after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #acacac;
+  margin: 35px auto 40px;
+}
+
+section p.explain {
+  padding: 0 80px;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+section h3 {
+  font-size: 22px;
+  color: #bb9849;
+  margin: 0 0 15px;
+}
+
+section table {
+  width: 100%;
+}
+
+section table th {
+  border: 1px solid #7e7e7e;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 17px;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+section table td {
+  border: 1px solid #7e7e7e;
+  padding: 8px 25px;
+  font-size: 17px;
+}
+
+section table td ul li {
+  line-height: 1.8em;
+  border-bottom: 1px dashed #ccc;
+  padding: 10px 0;
+}
+
+section table td ul li:last-child {
+  border-bottom: 0px none;
+}
+
+section table td a:hover {
+  color: #bb9849;
+}
+
+#footer {
+  background: #000;
+}
+
+#footer p.copy {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  padding: 30px 0;
+}
